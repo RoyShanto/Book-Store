@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(245, 245, 220, 0.37);
+}
+
+.book {
+    border: 2px solid rgb(202, 190, 174);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#book-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap style  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css style  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="text-center p-2">
+        <h1>Search Your Book</h1>
+        <input class="w-25 py-1 border border-primary border-2 rounded text-center fw-bolder" type="text"
+            id="search-field" placeholder="Search Book"><button class="btn-primary px-5 py-1 rounded"
+            onclick="searchBook()">Search</button>
+    </div>
+    <!-- show error massage  -->
+    <div id="error-message" class="text-center fs-5 text-danger fw-bolder"></div>
+    <!-- show all books  -->
+    <div id="book-container"></div>
+    <!-- show total result  -->
+    <p id="totalResult" class="text-center fs-5 text-secondary fw-bolder"></p>
+    <!-- js connection  -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
